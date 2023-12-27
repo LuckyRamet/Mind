@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    min-height: 50vh;
+    padding-top: 50px;
+    gap: 1rem;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fddfdf; 
+    color: #4d4d4d; 
+  }
+  
+  .counter {
+    width: 400px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: #ffb6c1; 
+    border-radius: 25px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin: auto;
+    animation: heartbeat 1s infinite alternate; 
+  }
+  
+  .counter > * {
+    height: 100%;
+    flex: 1;
+    font-size: 32px;
+    color: #fff; 
+  }
+  
+  @keyframes heartbeat {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+  
+  .button {
+    font-size: 20px; 
+    padding: 10px 20px; 
+    background-color: #ffb6c1; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+  }
+  
+  .button:hover {
+    background-color: #a6dda9; 
+  }
+  *{
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
+body{
+    font-family: 'Prompt', sans-serif;
+}
+
+.container-profile-card{
+display: flex;
+min-height: 70vh; 
+justify-content: center;
+align-items: center;
+}
+
+.close{
+position: relative;
+top: 5px;
+right: 135px;
+font-weight: bold;
+color: black;
+cursor: pointer;
+}
+
+img{
+position: relative;
+bottom: 35px;
+width: 250px;
+
+}
+
+.noti-num{
+color: rgb(255, 255, 255);
+font-weight: bold;
+font-size: 20px;
+position: relative;
+left: 270px;
+bottom: 40px;
+background-color: red;
+width: 50px;
+height: 50px;
+border-radius: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.card{
+width: 300px;
+height: 415px;
+background-color: #ffb6c1(228, 190, 223, 0.87);
+border-radius: 15px;
+text-align: center;
+border: 1px solid rgb(74, 57, 57);
+box-shadow: 1px 3px 5px rgb(173, 172, 172);
+transition: box-shadow 0.3s ease-in-out;
+
+}
+
+.text{
+font-size: 25px;
+position: relative;
+top: -30px;
+font-weight: bold;
+
+}
+
+.card:hover {
+box-shadow: 2px 5px 10px rgb(21, 19, 19);
+}
+
+.close:hover {
+    color: red;
+}
+.button {
+    font-size: 24px; 
+    padding: 15px 30px; 
+    background-color: #ffb6c1;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #a6dda9;
+}
+*{
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
+body{
+    font-family: 'Prompt', sans-serif;
+}
+
+.container-profile-card{
+display: flex;
+min-height: 70vh; 
+justify-content: center;
+align-items: center;
+}
+
+.close{
+position: relative;
+top: 5px;
+right: 135px;
+font-weight: bold;
+color: black;
+cursor: pointer;
+}
+
+img{
+position: relative;
+bottom: 35px;
+width: 250px;
+
+}
+
+.noti-num{
+color: rgb(255, 255, 255);
+font-weight: bold;
+font-size: 20px;
+position: relative;
+left: 270px;
+bottom: 40px;
+background-color: red;
+width: 50px;
+height: 50px;
+border-radius: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.card{
+width: 300px;
+height: 415px;
+background-color: #ffb6c1(219, 163, 245, 0.87);
+border-radius: 15px;
+text-align: center;
+border: 1px solid rgb(74, 57, 57);
+box-shadow: 1px 3px 5px rgb(173, 172, 172);
+transition: box-shadow 0.3s ease-in-out;
+
+}
+
+.text{
+font-size: 25px;
+position: relative;
+top: -30px;
+font-weight: bold;
+
+}
+
+.card:hover {
+box-shadow: 2px 5px 10px rgb(21, 19, 19);
+}
+
+.close:hover {
+    color: red;
+}
